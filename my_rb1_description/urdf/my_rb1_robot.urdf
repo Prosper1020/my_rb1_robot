@@ -174,13 +174,19 @@
 
     <!-- Gazebo color for base_link (black) -->
     <gazebo reference="base_link">
-        <visual>
-            <material>
-                <ambient>0 0 0 1</ambient>
-                <diffuse>0 0 0 1</diffuse>
-                <specular>0 0 0 1</specular>
-            </material>
-        </visual>
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="left_wheel">
+        <material>Gazebo/DarkGrey</material>
+    </gazebo>
+    <gazebo reference="right_wheel">
+        <material>Gazebo/DarkGrey</material>
+    </gazebo>
+    <gazebo reference="front_caster">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    <gazebo reference="back_caster">
+        <material>Gazebo/Grey</material>
     </gazebo>
 
     <!-- Gazebo friction for left_wheel -->
